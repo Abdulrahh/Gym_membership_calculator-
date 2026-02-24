@@ -20,7 +20,7 @@ while True:
         
 while True:
     membership_ID = input("Enter your Gym membership ID: ").upper()
-    if len(membership_ID) != 6 or membership_ID[4] != "-" or membership_ID[5] != "M":
+    if (len(membership_ID) != 6 or membership_ID[4] != "-" or membership_ID[5] != "M" or not membership_ID[:4].isalnum():
         print("Invalid membership ID")
         continue 
     else:
@@ -83,3 +83,4 @@ print(f"ID: {membership_ID}")
 print(f"Your selected membership is {selection} ")
 
 print(F"Student discount: {discount}, total montly cost {total}")
+
