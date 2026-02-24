@@ -1,10 +1,13 @@
 # Gym_membership_calculator-
 class activity 
 
+
+---
 Customer Details: Collect the Member Name and a unique Membership ID.
 Validation:
 Membership ID must be exactly 6 characters long and must end with "-M" (e.g., "1234-M").
 Age must be a positive integer between 16 and 90.
+
 ----
 Selection (Logic):
 Bronze Tier: £25.00 per month.
