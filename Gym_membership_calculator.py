@@ -27,20 +27,6 @@ while True:
         print(f"Welcome {first_name} {last_name} ")
         break 
 
-#try:
-   # age = int(input("Enter Your age: "))
-   # if age < 16 :
-    #    print("You too young to register")
-     #   print("bye")
-      #  exit()
-    # eilf age > 90:
-        #print("You too old to register")
-        #print("bye")
-        #exit()
-    #else:
-        #
-#except(ValueError):
-    #print("invalid input" )
 
 def get_age():
     while True:
@@ -95,4 +81,5 @@ print("******Outpput Summary*********")
 print(F"Name: {first_name} {last_name}")
 print(f"ID: {membership_ID}")
 print(f"Your selected membership is {selection} ")
+
 print(F"Student discount: {discount}, total montly cost {total}")
