@@ -39,7 +39,7 @@ def get_age():
 
 age = get_age()
 if age < 16 or age > 90:
-    print("You are too old or too young")
+    print("You are too old or too young to acess the gym membership")
     sys.exit() 
 else:
     print("Your age is qualified to acess the gym membership")
@@ -84,6 +84,7 @@ print(f"ID: {membership_ID}")
 print(f"Your selected membership is {selection} ")
 
 print(F"Student discount: {discount}, total montly cost {total}")
+
 
 
 
